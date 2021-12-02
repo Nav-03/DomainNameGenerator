@@ -1,4 +1,10 @@
-window.onload = function () {
+
+
+
+
+
+
+function genDomain() {
   let domainName = [];
   let pronoun = ["the", "our"];
   let adj = ["great", "big"];
@@ -18,5 +24,5 @@ window.onload = function () {
   document.getElementById("domain.results").innerHTML = domainName;
 
 
+}
 
-};
